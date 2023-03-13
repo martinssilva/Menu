@@ -1,0 +1,109 @@
+body{
+  background-image: url(rio4.jpg);
+  font-family: sans-serif;
+  padding: 20px;
+}
+.menu{
+  width: 80%;
+  max-width: 500px;
+  background-color: #113b08;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+.established{
+  font-style: italic;
+}
+hr{
+  height: 1px;
+  background-color: #F2E205;
+  border-color: #F2E205;
+}
+h1, h2, h3, p {
+ text-align: center;
+ color: #F2E205;
+}
+h1, h2 {
+  font-family: Impact, serif;
+}
+h1{
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+h2{
+  font-size: 30px;
+}
+.item p{
+  display: inline-block;
+  margin:5px 0px 5px 0px;
+  font-size: 18px;
+}
+#houseSpecial p{
+  font-size: 20px;
+  text-decoration:solid;
+}
+.icone{
+  display: block;
+  margin: -25px auto 0px auto;
+}
+li{
+  color:white;
+}
+.snacks, .mainDish, .drinks{
+  text-align: left;
+  width: 75%;
+  
+}
+.price{
+  text-align: right;
+  color:#529AD9;
+  width: 25%;
+}
+.line-bottom{
+  margin-top: 25px;
+}
+
+/*FOOTER*/
+
+footer{
+  font-size: 14px;
+}
+a{
+  color:#529AD9;
+  text-decoration: none;
+}
+
+a:visited{
+  color:aquamarine;
+}
+a:hover{
+  color:black;
+}
+a:active{
+  color: white;
+}
+.bottom-link{
+  margin-bottom: 5px;
+}
+.indicators{
+  text-align: center;
+}
+
+.top{
+  color:#F2E205;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.top:visited{
+  color:#F2E205;
+  font-weight: 600;
+}
+.top:hover{
+  color:black;
+}
+.top:active{
+  color: white;
+}
