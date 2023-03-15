@@ -9,7 +9,7 @@ body{
   background-color: #113b08;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
+  padding: 25px;
   border-radius: 10px;
 }
 .established{
@@ -26,6 +26,7 @@ h1, h2, h3, p {
 }
 h1, h2 {
   font-family: Impact, serif;
+  color: white;
 }
 h1{
   font-size: 40px;
@@ -46,7 +47,7 @@ h2{
 }
 .icone{
   display: block;
-  margin: -25px auto 0px auto;
+  margin: -25px auto 10px auto;
 }
 li{
   color:white;
@@ -92,18 +93,42 @@ a:active{
 }
 
 .top{
-  color:#F2E205;
+  color: white;
+  text-shadow: 2px 2px black;
   text-decoration: none;
   font-weight: 600;
+  font-size: 20px;
 }
 
 .top:visited{
-  color:#F2E205;
+  color:white;
+  text-shadow: 2px 2px black;
   font-weight: 600;
 }
 .top:hover{
-  color:black;
+  color:rgb(159, 161, 27);
 }
 .top:active{
   color: white;
+}
+button{
+  border: 1px solid rgba(0, 0, 0, 0.664);
+  margin: 1px;
+  border-radius: 20px;
+  padding: 15px 7px;
+}
+.buttonPestico{
+  background-image: url(petisco.jpeg);
+  background-position: left center;
+  background-size: cover;
+}
+.buttonPrincipal{
+  background-image: url(principal.jpeg);
+  background-position: right center;
+  background-size: cover;
+}
+.buttonBebida{
+  background-image: url(bebidas.jpeg);
+  background-position: center center;
+  background-size: cover;
 }
