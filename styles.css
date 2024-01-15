@@ -11,6 +11,7 @@ body{
   margin-right: auto;
   padding: 25px;
   border-radius: 10px;
+  box-shadow: 5px 5px;
 }
 .established{
   font-style: italic;
